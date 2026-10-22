@@ -3,28 +3,28 @@
 class Radian < Formula
   desc "Coding agent in one Rust binary (full-screen TUI plus headless exec)"
   homepage "https://github.com/hisea/radian"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/hisea/radian/releases/download/v0.1.0/radian-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4e5cc5e22843d59e2d0d8d1aaf24917bb3d090621c59e3adf14811f0e260150c"
+      url "https://github.com/hisea/radian/releases/download/v0.1.1/radian-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "853cf123798270ac96abffbf9d4e92de00be5e254159e2a3afce251f16ceb150"
     end
     on_intel do
-      url "https://github.com/hisea/radian/releases/download/v0.1.0/radian-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8b8b81d3ec2a6de26d5654179782df07a966c3f68af05588b8a6c08a9d06f7ea"
+      url "https://github.com/hisea/radian/releases/download/v0.1.1/radian-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "cce0b999dd31fe3ba8b9c9422e3009d992f108330a1899660f5fe289d0583fc3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hisea/radian/releases/download/v0.1.0/radian-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e5bd76de2dede9f31d4f8bc7fe8dab6df477338efa44be1c96a4809b4fa63f57"
+      url "https://github.com/hisea/radian/releases/download/v0.1.1/radian-0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c69d1a932e9e032233ef8ec1399bcdff76fae56e1a7c8c20564d354986890c33"
     end
     on_intel do
-      url "https://github.com/hisea/radian/releases/download/v0.1.0/radian-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "24b1b5442d86eeb076a797077dd1d8ad4e6ad478135a8d82baf4e395097fb6fe"
+      url "https://github.com/hisea/radian/releases/download/v0.1.1/radian-0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "80111fea1de6d6b1c429e521641ed96bb5427e6024d4f174f73da263efc7a02c"
     end
   end
 
